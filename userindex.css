@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(IMAGES/index_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+section {
+    float: left;
+    width: 70%;
+    height: 100vh;
+}
+
+#logo_name {
+    color: #ffff;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+
+#main ul {
+    float: right;
+    padding-top: 30px;
+}
+
+#main ul li {
+    display: inline-block;
+}
+
+#main ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    padding: 30px;
+}
+
+#content ul li {
+    border-bottom: 1px solid white;
+    display: block;
+    padding: 20px;
+}
+
+#content ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+aside {
+    width: 30%;
+    height: 100vh;
+    float: right;
+    background-color: #16A5D2;
+}
+
+#logo {
+    margin-top: 50%;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#sinup ul {
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#sinup ul li {
+    display: inline-block;
+}
+
+#sinup ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
